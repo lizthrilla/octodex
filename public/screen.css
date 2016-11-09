@@ -4,5 +4,12 @@ html {
 
 body {
   margin: 0;
-  font: 16px / 1 sans-serif;
+  font:13px helvetica,arial,freesans,clean,sans-serif;
+  line-height: 1.4em;
+  background-color: #fff;
+  color: #333333;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  display: flex;
 }

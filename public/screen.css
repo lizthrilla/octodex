@@ -22,11 +22,8 @@ body {
   display: block;
 }
 
-.wrapper {
-  align-content: center;
-  align-self: center;
-}
 .contentA {
+  align-self: center;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -34,8 +31,13 @@ body {
 }
 img {
   margin: 10px;
-  width: 424px;
-  height: 424px;
-  max-width: 424px;
-  max-height: 424px;
+  max-width: 300px;
+  max-height: 300px;
+}
+.footer {
+  margin: 10px;
+  display:flex;
+  justify-content: flex-start;
+  margin: 10px;
+  align-items: baseline;
 }

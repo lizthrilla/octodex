@@ -22,16 +22,16 @@ body {
   display: block;
 }
 main {
-  display: flex;
-  justify-content: center;
-  align-content: space-around;
 }
 .contentA {
   display: flex;
+  justify-content: center;
+  align-content: space-around;
   flex-direction: row;
   flex-wrap: wrap;
-  
-
+}
+.shell {
+  margin: 1em;
 }
 img {
   margin: 10px;
@@ -62,4 +62,5 @@ img {
   border-width: 1px;
   line-height: 0px;
   border-radius: 3px;
+
 }

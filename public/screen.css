@@ -53,6 +53,9 @@ img {
   border-bottom: 1px solid #cacaca;
   position: relative;
 }
+.number {
+  padding-right: 3em;
+}
 .item {
   display: block;
   border-style: solid;

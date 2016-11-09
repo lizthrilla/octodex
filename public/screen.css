@@ -8,14 +8,29 @@ body {
   line-height: 1.4em;
   background-color: #fff;
   color: #333333;
-  margin: 0px;
-  padding: 0px;
-  height: 100%;
+  display: block;
+  align-content: center;
+}
+.site-logo {
+  line-height: 1.4em;
+  cursor: auto;
+  display: block;
+}
+.site-logo img {
+  height: 22px;
+  width: auto;
+  display: block;
+}
+
+.wrapper {
+  align-content: center;
+  align-self: center;
 }
 .contentA {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+
 }
 img {
   margin: 10px;

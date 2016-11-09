@@ -11,5 +11,16 @@ body {
   margin: 0px;
   padding: 0px;
   height: 100%;
+}
+.contentA {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+img {
+  margin: 10px;
+  width: 424px;
+  height: 424px;
+  max-width: 424px;
+  max-height: 424px;
 }

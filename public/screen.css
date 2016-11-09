@@ -23,7 +23,6 @@ body {
 }
 
 .contentA {
-  align-self: center;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -40,4 +39,9 @@ img {
   justify-content: flex-start;
   margin: 10px;
   align-items: baseline;
+}
+.item {
+  border-style: solid;
+  border-width: thin;
+  border-radius: 5px;
 }

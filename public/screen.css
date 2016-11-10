@@ -14,13 +14,25 @@ body {
 .header {
   display: flex;
   background-color: #F5F5F5;
-  justify-content: flex-end;
+}
+.greybox {
+  background-color: #F0F0F0;
+  display: flex;
+  justify-content: space-between;
 }
 .top-nav {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  align-self: flex-end;
+  list-style-type: none;
+  display: flex;
+  align-content: space-around;
+}
+a:link {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+a:hover {
+  color: red;
+  background-color: #D3D3D3;
 }
 .site-logo {
   line-height: 1.4em;
@@ -70,8 +82,9 @@ img {
   border-width: 1px;
   line-height: 0px;
   border-radius: 3px;
+  border-color: #cacaca;
 
 }
-h1 {
-  color: transparent;
+main {
+  margin-top: 5px
 }
